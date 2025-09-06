@@ -10,7 +10,8 @@ local cat = {
     h = 32,
     speedX = 200,
     jump_power = -550,
-    speedY = 30
+    speedY = 30,
+    m = 10
 }
 
 -- gravidade
@@ -133,3 +134,5 @@ function love.draw()
     -- posições x e y
     love.graphics.print("X: " .. math.floor(cat.x) .. "  Y: " .. math.floor(cat.y), 10, 10)
 end
+
+--bla. blalalallalala
